@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  CooreML.tst
+//  MLtst
 //
-//  Created by Demian on 07/03/2020.
+//  Created by Demian on 02/03/2020.
 //  Copyright © 2020 Demian. All rights reserved.
 //
 

@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		AD15A87E24140CCF00F0E204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15A87D24140CCF00F0E204 /* AppDelegate.swift */; };
 		AD15A88024140CCF00F0E204 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15A87F24140CCF00F0E204 /* SceneDelegate.swift */; };
-		AD15A88224140CCF00F0E204 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15A88124140CCF00F0E204 /* ContentView.swift */; };
 		AD15A88424140CD100F0E204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD15A88324140CD100F0E204 /* Assets.xcassets */; };
 		AD15A88724140CD100F0E204 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD15A88624140CD100F0E204 /* Preview Assets.xcassets */; };
 		AD15A88A24140CD100F0E204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD15A88824140CD100F0E204 /* LaunchScreen.storyboard */; };
 		AD15A89524140CD100F0E204 /* CooreML_tstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15A89424140CD100F0E204 /* CooreML_tstTests.swift */; };
 		AD15A8A024140CD100F0E204 /* CooreML_tstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15A89F24140CD100F0E204 /* CooreML_tstUITests.swift */; };
+		AD15A8AE24140DE700F0E204 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15A8AD24140DE700F0E204 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		AD15A87A24140CCF00F0E204 /* CooreML.tst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CooreML.tst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD15A87D24140CCF00F0E204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD15A87F24140CCF00F0E204 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD15A88124140CCF00F0E204 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD15A88324140CD100F0E204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD15A88624140CD100F0E204 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD15A88924140CD100F0E204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		AD15A89B24140CD100F0E204 /* CooreML.tstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CooreML.tstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD15A89F24140CD100F0E204 /* CooreML_tstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooreML_tstUITests.swift; sourceTree = "<group>"; };
 		AD15A8A124140CD100F0E204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD15A8AD24140DE700F0E204 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				AD15A87D24140CCF00F0E204 /* AppDelegate.swift */,
 				AD15A87F24140CCF00F0E204 /* SceneDelegate.swift */,
-				AD15A88124140CCF00F0E204 /* ContentView.swift */,
+				AD15A8AD24140DE700F0E204 /* ViewController.swift */,
 				AD15A88324140CD100F0E204 /* Assets.xcassets */,
 				AD15A88824140CD100F0E204 /* LaunchScreen.storyboard */,
 				AD15A88B24140CD100F0E204 /* Info.plist */,
@@ -267,9 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD15A8AE24140DE700F0E204 /* ViewController.swift in Sources */,
 				AD15A87E24140CCF00F0E204 /* AppDelegate.swift in Sources */,
 				AD15A88024140CCF00F0E204 /* SceneDelegate.swift in Sources */,
-				AD15A88224140CCF00F0E204 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
