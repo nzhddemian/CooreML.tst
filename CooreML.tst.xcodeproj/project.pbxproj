@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD15A87E24140CCF00F0E204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15A87D24140CCF00F0E204 /* AppDelegate.swift */; };
+		AD15A88024140CCF00F0E204 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15A87F24140CCF00F0E204 /* SceneDelegate.swift */; };
+		AD15A88224140CCF00F0E204 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15A88124140CCF00F0E204 /* ContentView.swift */; };
+		AD15A88424140CD100F0E204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD15A88324140CD100F0E204 /* Assets.xcassets */; };
+		AD15A88724140CD100F0E204 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD15A88624140CD100F0E204 /* Preview Assets.xcassets */; };
+		AD15A88A24140CD100F0E204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD15A88824140CD100F0E204 /* LaunchScreen.storyboard */; };
+		AD15A89524140CD100F0E204 /* CooreML_tstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15A89424140CD100F0E204 /* CooreML_tstTests.swift */; };
+		AD15A8A024140CD100F0E204 /* CooreML_tstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD15A89F24140CD100F0E204 /* CooreML_tstUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD15A89124140CD100F0E204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD15A87224140CCF00F0E204 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD15A87924140CCF00F0E204;
+			remoteInfo = CooreML.tst;
+		};
+		AD15A89C24140CD100F0E204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD15A87224140CCF00F0E204 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD15A87924140CCF00F0E204;
+			remoteInfo = CooreML.tst;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD15A87A24140CCF00F0E204 /* CooreML.tst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CooreML.tst.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD15A87D24140CCF00F0E204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD15A87F24140CCF00F0E204 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD15A88124140CCF00F0E204 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD15A88324140CD100F0E204 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD15A88624140CD100F0E204 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD15A88924140CD100F0E204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD15A88B24140CD100F0E204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD15A89024140CD100F0E204 /* CooreML.tstTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CooreML.tstTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD15A89424140CD100F0E204 /* CooreML_tstTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooreML_tstTests.swift; sourceTree = "<group>"; };
+		AD15A89624140CD100F0E204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD15A89B24140CD100F0E204 /* CooreML.tstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CooreML.tstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD15A89F24140CD100F0E204 /* CooreML_tstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooreML_tstUITests.swift; sourceTree = "<group>"; };
+		AD15A8A124140CD100F0E204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD15A87724140CCF00F0E204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD15A88D24140CD100F0E204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD15A89824140CD100F0E204 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD15A87124140CCF00F0E204 = {
+			isa = PBXGroup;
+			children = (
+				AD15A87C24140CCF00F0E204 /* CooreML.tst */,
+				AD15A89324140CD100F0E204 /* CooreML.tstTests */,
+				AD15A89E24140CD100F0E204 /* CooreML.tstUITests */,
+				AD15A87B24140CCF00F0E204 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD15A87B24140CCF00F0E204 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD15A87A24140CCF00F0E204 /* CooreML.tst.app */,
+				AD15A89024140CD100F0E204 /* CooreML.tstTests.xctest */,
+				AD15A89B24140CD100F0E204 /* CooreML.tstUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD15A87C24140CCF00F0E204 /* CooreML.tst */ = {
+			isa = PBXGroup;
+			children = (
+				AD15A87D24140CCF00F0E204 /* AppDelegate.swift */,
+				AD15A87F24140CCF00F0E204 /* SceneDelegate.swift */,
+				AD15A88124140CCF00F0E204 /* ContentView.swift */,
+				AD15A88324140CD100F0E204 /* Assets.xcassets */,
+				AD15A88824140CD100F0E204 /* LaunchScreen.storyboard */,
+				AD15A88B24140CD100F0E204 /* Info.plist */,
+				AD15A88524140CD100F0E204 /* Preview Content */,
+			);
+			path = CooreML.tst;
+			sourceTree = "<group>";
+		};
+		AD15A88524140CD100F0E204 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD15A88624140CD100F0E204 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD15A89324140CD100F0E204 /* CooreML.tstTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD15A89424140CD100F0E204 /* CooreML_tstTests.swift */,
+				AD15A89624140CD100F0E204 /* Info.plist */,
+			);
+			path = CooreML.tstTests;
+			sourceTree = "<group>";
+		};
+		AD15A89E24140CD100F0E204 /* CooreML.tstUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD15A89F24140CD100F0E204 /* CooreML_tstUITests.swift */,
+				AD15A8A124140CD100F0E204 /* Info.plist */,
+			);
+			path = CooreML.tstUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD15A87924140CCF00F0E204 /* CooreML.tst */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD15A8A424140CD100F0E204 /* Build configuration list for PBXNativeTarget "CooreML.tst" */;
+			buildPhases = (
+				AD15A87624140CCF00F0E204 /* Sources */,
+				AD15A87724140CCF00F0E204 /* Frameworks */,
+				AD15A87824140CCF00F0E204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CooreML.tst;
+			productName = CooreML.tst;
+			productReference = AD15A87A24140CCF00F0E204 /* CooreML.tst.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD15A88F24140CD100F0E204 /* CooreML.tstTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD15A8A724140CD100F0E204 /* Build configuration list for PBXNativeTarget "CooreML.tstTests" */;
+			buildPhases = (
+				AD15A88C24140CD100F0E204 /* Sources */,
+				AD15A88D24140CD100F0E204 /* Frameworks */,
+				AD15A88E24140CD100F0E204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD15A89224140CD100F0E204 /* PBXTargetDependency */,
+			);
+			name = CooreML.tstTests;
+			productName = CooreML.tstTests;
+			productReference = AD15A89024140CD100F0E204 /* CooreML.tstTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD15A89A24140CD100F0E204 /* CooreML.tstUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD15A8AA24140CD100F0E204 /* Build configuration list for PBXNativeTarget "CooreML.tstUITests" */;
+			buildPhases = (
+				AD15A89724140CD100F0E204 /* Sources */,
+				AD15A89824140CD100F0E204 /* Frameworks */,
+				AD15A89924140CD100F0E204 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD15A89D24140CD100F0E204 /* PBXTargetDependency */,
+			);
+			name = CooreML.tstUITests;
+			productName = CooreML.tstUITests;
+			productReference = AD15A89B24140CD100F0E204 /* CooreML.tstUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD15A87224140CCF00F0E204 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Demian;
+				TargetAttributes = {
+					AD15A87924140CCF00F0E204 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					AD15A88F24140CD100F0E204 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = AD15A87924140CCF00F0E204;
+					};
+					AD15A89A24140CD100F0E204 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = AD15A87924140CCF00F0E204;
+					};
+				};
+			};
+			buildConfigurationList = AD15A87524140CCF00F0E204 /* Build configuration list for PBXProject "CooreML.tst" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD15A87124140CCF00F0E204;
+			productRefGroup = AD15A87B24140CCF00F0E204 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD15A87924140CCF00F0E204 /* CooreML.tst */,
+				AD15A88F24140CD100F0E204 /* CooreML.tstTests */,
+				AD15A89A24140CD100F0E204 /* CooreML.tstUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD15A87824140CCF00F0E204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD15A88A24140CD100F0E204 /* LaunchScreen.storyboard in Resources */,
+				AD15A88724140CD100F0E204 /* Preview Assets.xcassets in Resources */,
+				AD15A88424140CD100F0E204 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD15A88E24140CD100F0E204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD15A89924140CD100F0E204 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD15A87624140CCF00F0E204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD15A87E24140CCF00F0E204 /* AppDelegate.swift in Sources */,
+				AD15A88024140CCF00F0E204 /* SceneDelegate.swift in Sources */,
+				AD15A88224140CCF00F0E204 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD15A88C24140CD100F0E204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD15A89524140CD100F0E204 /* CooreML_tstTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD15A89724140CD100F0E204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD15A8A024140CD100F0E204 /* CooreML_tstUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD15A89224140CD100F0E204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD15A87924140CCF00F0E204 /* CooreML.tst */;
+			targetProxy = AD15A89124140CD100F0E204 /* PBXContainerItemProxy */;
+		};
+		AD15A89D24140CD100F0E204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD15A87924140CCF00F0E204 /* CooreML.tst */;
+			targetProxy = AD15A89C24140CD100F0E204 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD15A88824140CD100F0E204 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD15A88924140CD100F0E204 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD15A8A224140CD100F0E204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD15A8A324140CD100F0E204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD15A8A524140CD100F0E204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CooreML.tst/Preview Content\"";
+				DEVELOPMENT_TEAM = K45Y8D35T5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CooreML.tst/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demianProduction.CooreML-tst";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD15A8A624140CD100F0E204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CooreML.tst/Preview Content\"";
+				DEVELOPMENT_TEAM = K45Y8D35T5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CooreML.tst/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demianProduction.CooreML-tst";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD15A8A824140CD100F0E204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K45Y8D35T5;
+				INFOPLIST_FILE = CooreML.tstTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demianProduction.CooreML-tstTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CooreML.tst.app/CooreML.tst";
+			};
+			name = Debug;
+		};
+		AD15A8A924140CD100F0E204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K45Y8D35T5;
+				INFOPLIST_FILE = CooreML.tstTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demianProduction.CooreML-tstTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CooreML.tst.app/CooreML.tst";
+			};
+			name = Release;
+		};
+		AD15A8AB24140CD100F0E204 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K45Y8D35T5;
+				INFOPLIST_FILE = CooreML.tstUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demianProduction.CooreML-tstUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CooreML.tst;
+			};
+			name = Debug;
+		};
+		AD15A8AC24140CD100F0E204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K45Y8D35T5;
+				INFOPLIST_FILE = CooreML.tstUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demianProduction.CooreML-tstUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CooreML.tst;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD15A87524140CCF00F0E204 /* Build configuration list for PBXProject "CooreML.tst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD15A8A224140CD100F0E204 /* Debug */,
+				AD15A8A324140CD100F0E204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD15A8A424140CD100F0E204 /* Build configuration list for PBXNativeTarget "CooreML.tst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD15A8A524140CD100F0E204 /* Debug */,
+				AD15A8A624140CD100F0E204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD15A8A724140CD100F0E204 /* Build configuration list for PBXNativeTarget "CooreML.tstTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD15A8A824140CD100F0E204 /* Debug */,
+				AD15A8A924140CD100F0E204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD15A8AA24140CD100F0E204 /* Build configuration list for PBXNativeTarget "CooreML.tstUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD15A8AB24140CD100F0E204 /* Debug */,
+				AD15A8AC24140CD100F0E204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD15A87224140CCF00F0E204 /* Project object */;
+}
