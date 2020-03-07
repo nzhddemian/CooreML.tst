@@ -10,7 +10,7 @@ import AVFoundation
 
 import Vision
 
-class ViewContent: UIViewController , AVCaptureVideoDataOutputSampleBufferDelegate {
+class ViewController: UIViewController , AVCaptureVideoDataOutputSampleBufferDelegate {
 let session = AVCaptureSession()
 var label = UILabel()
     let imageView = UIImageView()
@@ -81,7 +81,7 @@ var label = UILabel()
         let pixelBuff = observation?.pixelBuffer
         let image = UIImage(ciImage: CIImage(cvPixelBuffer: pixelBuff!))
         DispatchQueue.main.async {
-                let filteredImage = UIImage(cgImage: cgImage!)
+               // let filteredImage = UIImage(cgImage: cgImage!)
                    
                    self.imageView.image = image //filteredImage
                    
